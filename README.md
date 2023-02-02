@@ -36,3 +36,27 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+--------------------------------
+
+# HULU Clone
+
+npx create-next-app hulu-2
+
+## Install tailwindcss
+https://tailwindcss.com/docs/guides/nextjs
+
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+###  enable JIT mode
+https://v2.tailwindcss.com/docs/just-in-time-mode
+
+## Install HeroIcons
+https://heroicons.com/
+npm install @heroicons/react
+
+## Install tailwind scrollbar hide
+npm install tailwind-scrollbar-hide
