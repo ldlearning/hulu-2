@@ -7,3 +7,22 @@
         @apply bg-[#06202A] text-gray-300
     }
 }
+
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.ytp-chrome-bottom {
+    visibility: hidden !important;
+
+}
